@@ -61,7 +61,7 @@ Integrate the mobile application as a client while keeping the backend as the si
 ---
 
 ## Quality Principle: Reproducibility
-A fixed catalog of **13 predefined tests** is executed after completion of each phase:
+A fixed catalog of **12 predefined tests** is executed after completion of each phase:
 
 - after Phase A
 - after Phase B
@@ -118,7 +118,7 @@ Step 01 is considered complete when:
 
 - the CSLI subproject goal is formally defined
 - the three-phase integration model (A/B/C) is fixed
-- the reproducibility principle (13 tests after each phase) is fixed
+- the reproducibility principle (12 tests after each phase) is fixed
 - scope and exclusions are explicitly documented
 - repository constraints are documented
 - this document is committed to the repository

@@ -14,7 +14,7 @@ CSLI explicitly focuses on **integration stability and reproducibility**, not on
 The CSLI subproject pursues the following objectives:
 
 - Integrate 506.ai as an external LLM backend without introducing prompt or context drift
-- Enable reproducible execution of a fixed test set (13 tests) after each integration step
+- Enable reproducible execution of a fixed test set (12 tests) after each integration step
 - Maintain a clear separation between **context engineering** and **transport/integration layers**
 - Establish a stable foundation for later evaluation of context-aware prompting strategies
 
@@ -51,7 +51,7 @@ The mobile app submits structured inputs only; prompt construction and versionin
 ---
 
 ## Quality Principle: Reproducibility
-A fixed set of **13 predefined tests** is executed:
+A fixed set of **12 predefined tests** is executed:
 
 - after completion of Phase A
 - after completion of Phase B
@@ -65,7 +65,7 @@ This ensures functional equivalence and prevents integration-induced drift.
 The CSLI subproject includes:
 
 - Functional integration of 506.ai across all phases (A/B/C)
-- Reproducible execution of the 13 tests at each phase
+- Reproducible execution of the 12 tests at each phase
 - Structured logging of inputs, context, prompts, and responses
 - Versioning rules for prompt templates and context schemas
 

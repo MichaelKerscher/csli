@@ -8,7 +8,7 @@
 ## Purpose of Step 02
 The purpose of this step is to **define, document, and freeze** the experimental foundation of CSLI by specifying:
 
-- a fixed catalog of **13 test scenarios**
+- a fixed catalog of **12 test scenarios**
 - a fixed set of **execution conditions**
 
 These definitions apply uniformly across all CSLI integration phases (A/B/C) and ensure that experimental results remain comparable and reproducible.
@@ -48,7 +48,6 @@ Tests are **scenario-centric**, not modality-centric.
 | **T10** | Misleading Context | Correct media combined with intentionally false context | Context robustness |
 | **T11** | Prompt Variation | Semantically identical prompts with different formulations | Prompt sensitivity |
 | **T12** | Corrupted Input | Partially corrupted or invalid media input | Error robustness |
-| **T13** | Context Boundary Case | Reserved test for context or modality edge cases | Context limits |
 
 ---
 
@@ -123,7 +122,7 @@ Only editorial clarifications without semantic impact are permitted.
 ## Scope of Step 02
 
 ### In Scope
-- Definition of the 13-test catalog
+- Definition of the 12-test catalog
 - Definition of the global condition set
 - Identification and naming rules
 - Freeze rules for tests and conditions
@@ -139,7 +138,7 @@ Only editorial clarifications without semantic impact are permitted.
 ## Definition of Done (Step 02)
 Step 02 is considered complete when:
 
-- all 13 tests are defined and documented
+- all 12 tests are defined and documented
 - the global condition set is finalized
 - execution and freeze rules are defined
 - this document is committed to the repository
