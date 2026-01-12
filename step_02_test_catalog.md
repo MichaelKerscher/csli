@@ -27,6 +27,9 @@ Across all integration phases:
 
 This guarantees that observed differences are attributable to **integration effects**, not to changes in test design.
 
+Prompt structure and context formatting rules are defined separately in Step 04
+and are referenced but not specified in this step.
+
 ---
 
 ## Test Catalog (Final, Frozen)
@@ -93,6 +96,9 @@ They enable controlled comparison of context enrichment effects.
 
 This condition set is **global** and applies uniformly to all tests.
 
+Conditions describe execution configurations and are independent of test definitions.
+A test may or may not support all conditions; unsupported combinations are marked as NA.
+
 ---
 
 ## Test–Condition Execution Rules
@@ -101,8 +107,9 @@ This condition set is **global** and applies uniformly to all tests.
 - If a condition is not applicable to a test, it is marked as **NA (Not Applicable)**
 - Conditions themselves are **never modified, removed, or customized per test**
 
-A single experimental run is uniquely identified by the pair:
-'(test_id, condition_id)'
+A test-condition pair `(test_id, condition_id)` defines an experimental configuration.
+Each concrete execution of this configuration is uniquely identified by an additional `run_id`
+(see Step 03 — Logging, Run Management & Reproducibility Rules).
 
 ---
 
